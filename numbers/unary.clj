@@ -10,20 +10,15 @@
 ;;;;   Modifications:
 ;;;;
 ;;;;   Purpose:
-;;;;
-;;;;
-;;;;
-;;;;   Calling Sequence:
-;;;;
-;;;;
-;;;;   Inputs:
-;;;;
-;;;;   Outputs:
+;;;;       Explore abstract (yet completely inefficient) representation of numbers
+;;;;     as sequences of X's, e.g., 3 => (X X X). All of the basic numeric operations
+;;;;     are implemented using this representation, such as addition, multiplication,
+;;;;     comparison operators, etc... For convenience, the constants zero, one, and two
+;;;;     are predefined.
 ;;;;
 ;;;;   Example:
-;;;;
-;;;;   Notes:
-;;;;
+;;;;   (def five (unary 5))
+;;;;   (+ two five) => (X X X X X X X)
 ;;;;
 
 (ns unary)
